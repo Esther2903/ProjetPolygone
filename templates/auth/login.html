@@ -12,7 +12,11 @@
             <div class="container">
                 <div class="nom_app1">Polygone +</div>
                 <div class="bienvenu"><em>Authentification</em></div>
+                {% if error %}
+                    <div> {{ message }}</div>
+                {% endif %}
                 <form action="{% url 'login' %}" method="POST">
+                    {% csrf_token %}
                     <div class="lab"><label>Email</label> <input type="text"  value="{{ mail }}" placeholder="enter email" name="email" required></div>
                     <div class="lab"><label>Password</label> <input type="password" placeholder="enter password" name="password" required></div>
                     <a href="welcome"><input type=submit value="LOGIN" name="login"></a>

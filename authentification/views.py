@@ -29,7 +29,7 @@ def formLogin(request):
         password = request.POST.get('password')
         if email and password:
             resultat = Login.objects.filter(email=email, password=password)
-            newLogin = Login.objects.create(email=email, password=password)
+            newLogin = Sign_up.objects.create(email=email, password=password)
             newLogin.save()
             return redirect("welcome")
         if len(resultat) != 1:
@@ -54,21 +54,6 @@ def formLogin(request):
         return render(request, 'auth/login.html')
 
 
-"""def role(request):
-
-    roles = [
-        ("Administrateur", "Administrateur"),
-        ("Acheteur", "Acheteur"),
-        ("Vendeur", "Vendeur"),
-        ("Vendeuse", "Vendeuse"),
-        ]
-    context = {
-            'roles': roles,
-
-    }
-
-    return render(request, 'auth/sign_up.html', context)
-    """
 
 
 # function formulaire sign_up
@@ -85,10 +70,10 @@ def formSign_up(request):
         confirmPassword = request.POST.get('confirmPassword')
 
         if password == confirmPassword:
-            if User.objects.filter(email=email).exists():
+            if Sign_up.objects.filter(email=email).exists():
                 messages.error(request, "Cet email est déjà utilsé pour ouvrir un compte")
                 return redirect('auth/sign_up.html')
-            elif User.objects.filter(password=password).exists():
+            elif Sign_up.objects.filter(password=password).exists():
                 messages.error(request, "Cet mot de passe est déjà utilsé pour ouvrir un compte")
                 return redirect('auth/sign_up.html')
             else:
