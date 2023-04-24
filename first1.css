@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(to right, rgb(111, 111, 245), pink);
+}
+
+.salutation{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.appname{
+    text-align: center;
+    font-size: 25px;
+}
+.souhait{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+}
+.container{
+    margin-top: 5%;
+    background-color: rgb(29, 216, 113);
+    height: 700px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+
+
+.cellule1{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    border-radius: 10px;
+    height: 65px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.cellule11{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    border-radius: 10px;
+    height: 65px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.cellule21{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    border-radius: 10px;
+    height: 65px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.cellule2{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    border-radius: 10px;
+    height: 65px;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    text-align: center;
+}

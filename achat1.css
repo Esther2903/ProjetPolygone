@@ -1,0 +1,167 @@
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    height: 900px;
+    width: 0px;
+    background-color: aliceblue;
+}
+
+#nav-bar{
+    padding-top: 10%;
+    height: 900px;
+    width: 300px;
+    background-color: #36506b;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 90px;
+    width: 1024px;
+    background-color: #36506b;
+    margin-left: 25%;
+    margin-top: 00px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* __________NAV BAR ELEMENT________*/
+.client{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.achat{
+    padding-top: 10px;
+    color: rgb(247, 229, 213);
+    padding-bottom: 18px;
+    background-image: linear-gradient(#800200,#d45d14); 
+    border-radius: 5px;
+    width: 220px;
+    border: 1px solid #d45d14;
+    text-align: center;
+    margin-left: 23px;
+}
+
+.vente{
+    color: rgb(247, 229, 213);
+    padding-bottom: 18px;
+}
+
+.prod{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.collab{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.compta{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.compte{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.biens{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.bank{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.autre{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+
+.param{
+    color: rgb(247, 229, 213);
+    padding-bottom: 15px;
+}
+/* __________NAV BAR ELEMENT________*/
+
+.signUp{
+    margin-left: 75%;
+    padding-top: 4.5%;
+}
+
+.logOut{
+    font-size: 22px;
+    color: rgb(245, 231, 220);
+    margin-top: -45px;
+    margin-left: 81%;
+    padding-top: 1%;
+    border-radius: 30px;
+    width: 160px;
+    border: 1px solid #d45d14;
+    text-align: center;
+    height: 50px;
+}
+.logOut:hover{
+    color: #d45d14;
+    background-color: white;
+    font-weight: bold;
+}
+
+.logo{
+    padding-top: 25px;
+    font-size: 30px;
+    color: rgb(245, 231, 220);
+    margin-left: 45%;
+}
+a{
+    text-decoration: none;
+}
+
+.container1{
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 10px;
+    height: 900px;
+    width: 0px;
+    background-color: aliceblue;
+}
+
+.info1{
+    margin-left: 45%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.info2{
+    font-size: 15px;
+    padding-top: 500%;
+    margin-left: 85%;
+    margin-top: 20px;
+}
+
+
+input[type=text]{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+/*.info2{
+
+}*/

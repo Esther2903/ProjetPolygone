@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(193, 252, 252), rgb(207, 207, 248));
+
+}
+
+.salutation{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;
+    color: wheat;
+}
+.appname{
+    text-align: center;
+    font-size: 25px;
+    font-size: 40px;
+    color: wheat;
+
+}
+.souhait{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+    color: wheat;
+ 
+}
+.container{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 900px;
+    width: 1250px;
+    background-color: #36506b;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container .firstLine {
+    margin-top: 10%;
+    display: flex
+}
+
+.hexagon{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 25px;
+    width: 160px;
+    height: 90px;
+    background-image: linear-gradient(#800200,#d45d14);    
+    position: relative;
+}
+
+
+.hexagon::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 30px solid #800200;
+}
+
+.hexagon::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 30px solid #d45d14;
+}
+
+
+
+h3{
+    vertical-align: middle;
+}
+
+/*.hexagon, .hexagon::before, .hexagon::after :hover{
+    background-color: #f58e4e;
+    color: black;
+}
+
+.hexagon::after:hover{
+    background-color: #f58e4e;
+
+}*/
+
+/*
+.container .firstLine .hexagon{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin: 0 10px;
+    clip-path: polygon(0% 25%, 
+                        50% 0%, 
+                        100% 25%, 
+                        100% 75%, 
+                        50% 100%, 
+                        0% 75%);
+    background-color: brown;
+}
+.container .secondLine .hexagon{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: brown;
+}
+.container .thirdLine .hexagon{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%,100% 75%, 50% 100%, 0 75%);
+    background-color: brown;
+}*/
+.container .secondLine {
+    margin-top: -15px;
+    display: flex
+}
+
+
+.container .thirdLine {
+    margin-top: 25px;
+    display: flex
+}
+
+.vente{
+    margin-right: -10px;
+}
+.client{
+    margin-left: -10px;
+}
+
+
+
+.hexagon1{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: -25px;
+    width: 160px;
+    height: 90px;
+    background-image: linear-gradient(#800200,#d45d14);    
+    position: relative;
+}
+
+
+.hexagon1::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 30px solid #800200;
+}
+
+.hexagon1::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 30px solid #d45d14;
+}
+
+.hexagon2{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 0px;
+    width: 160px;
+    height: 90px;
+    background-image: linear-gradient(#800200,#d45d14);    
+    position: relative;
+}
+
+
+.hexagon2::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 30px solid #800200;
+}
+
+.hexagon2::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 30px solid #d45d14;
+}

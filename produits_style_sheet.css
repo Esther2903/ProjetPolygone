@@ -1,0 +1,49 @@
+/*BARRE DE NAVIGATION*/
+#nav-bar{
+    padding-top: 10%;
+    height: 800px;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(101, 134, 207, 0.781);
+    color: black;
+    font-size: 20px;
+}
+
+#ligne_info{
+    margin-top: 2%;
+}
+
+/*BOUTON*/
+.modifier{
+    margin-left: 75%;
+    background-color: rgb(190, 238, 118);
+    border: 1px solid black;    
+    border-width: 1px;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 1%;
+}
+.supprimer{
+    background-color: rgb(224, 105, 105);
+    margin-top: -3.38%;
+    margin-left: 85%;
+    border: 1px solid black;  
+    border-radius: 10px;
+    width: 100px;    
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+}
+.prod{
+    margin-top: -55%;
+    height: 140px;
+    width: 1024px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 23%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
